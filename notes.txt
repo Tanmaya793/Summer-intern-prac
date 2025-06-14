@@ -1,0 +1,12 @@
+work of backend:
+-> route change
+-> Database connectivity
+-> Server-Client interaction
+
+While importing module, __name__ = file name  :  else  __main__
+
+path parameter-> value passed during routing!
+dynamic url-> generate url dynamically according to dynamic input1!
+
+
+
