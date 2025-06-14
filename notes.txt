@@ -10,3 +10,5 @@ dynamic url-> generate url dynamically according to dynamic input1!
 
 
 URL redirection-> while trying to get to a url, but the host provided may change to get you into the correct url.
+
+##redirect(url_for(function-name))
