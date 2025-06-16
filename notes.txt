@@ -16,3 +16,5 @@ URL redirection-> while trying to get to a url, but the host provided may change
 url building:
 we can pass values during url redirction
 # redirect(url_for("func",variable=value...))
+
+..
