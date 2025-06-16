@@ -17,7 +17,7 @@ url building:
 we can pass values during url redirction
 # redirect(url_for("func",variable=value...))
 
-Jinja:
+Jinja & Template Inheritance:
     -> basically formatting in frontend
     -> double curly braces for accesing values {{var}}
     -> render_template("xyz.html", var="val")
@@ -28,4 +28,4 @@ Jinja:
     -> ## <a href="{{url_for("func")}}">click</a>
 
 
-Template Inheritance:
+
