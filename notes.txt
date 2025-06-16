@@ -18,7 +18,14 @@ we can pass values during url redirction
 # redirect(url_for("func",variable=value...))
 
 Jinja:
-    
+    -> basically formatting in frontend
+    -> double curly braces for accesing values {{var}}
+    -> render_template("xyz.html", var="val")
+
+    -> we can save the laout html in one file with jinja components in it.
+    -> {% extends "layout.html" %} inside the different html file to inherit layout
+    -> jinja is also used to make clickable url redirection
+    -> ## <a href="{{url_for("func")}}">click</a>
 
 
 Template Inheritance:
