@@ -17,4 +17,8 @@ url building:
 we can pass values during url redirction
 # redirect(url_for("func",variable=value...))
 
-..
+Jinja:
+    
+
+
+Template Inheritance:
