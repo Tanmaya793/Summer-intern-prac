@@ -27,5 +27,11 @@ Jinja & Template Inheritance:
     -> jinja is also used to make clickable url redirection
     -> ## <a href="{{url_for("func")}}">click</a>
 
+    -> we can add if-else block in html files
+    -> {% if cond %}
+            <html>
+        {% else %}
+            <html>
+        {% endif %}
 
 
