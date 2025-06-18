@@ -34,6 +34,13 @@ Jinja & Template Inheritance:
             <html>
         {% endif %}
 
-    
+    -> storing data in a file, and retreving it through jinja
+    -> import py file in app.py, 
 
+
+
+Some AI:
+    -> claude.ai
+    -> perplexity.ai
+    -> deepseek.ai
 
