@@ -42,3 +42,8 @@ Some AI:
     -> perplexity.ai
     -> deepseek.ai
 
+GET & POST:
+    -> GET doesn't store data while POST stores the data
+    -> POST generally for signup
+
+CSRF attack: (Cross-Site Request Forgery)
