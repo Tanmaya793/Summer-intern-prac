@@ -37,8 +37,6 @@ Jinja & Template Inheritance:
     -> storing data in a file, and retreving it through jinja
     -> import py file in app.py, 
 
-
-
 Some AI:
     -> claude.ai
     -> perplexity.ai
