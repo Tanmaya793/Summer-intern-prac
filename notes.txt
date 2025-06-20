@@ -47,3 +47,6 @@ GET & POST:
     -> POST generally for signup
 
 CSRF attack: (Cross-Site Request Forgery)
+
+WTForms:
+    
