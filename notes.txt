@@ -55,4 +55,6 @@ WTForms:
     class class_name(FlaskForm):
 
 
+    {{form.submit()}} # for SubmitField
+
 # import py files into app.py & pass them into routes
