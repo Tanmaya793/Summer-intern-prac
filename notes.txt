@@ -49,4 +49,10 @@ GET & POST:
 CSRF attack: (Cross-Site Request Forgery)
 
 WTForms:
-    
+    from flask_wtf import FlaskForm
+    from wtforms import StringField, PasswordField, SubmitForm...
+    from wtforms.validators import DataRequired, Optional, Length, EqualTo...
+    class class_name(FlaskForm):
+
+
+# import py files into app.py & pass them into routes
