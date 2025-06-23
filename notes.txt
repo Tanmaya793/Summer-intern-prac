@@ -57,4 +57,13 @@ WTForms:
 
     {{form.submit()}} # for SubmitField
 
-# import py files into app.py & pass them into routes
+    # import py files into app.py & pass them into routes
+
+    secret key:
+    app.config["SECRET_KEY"] = "iuehf92hf00i"
+
+    -> inside form:
+        {{ form.hidden_tag() }}
+    -> how to validate:
+        if form.valiadte_on_submit():
+            return
