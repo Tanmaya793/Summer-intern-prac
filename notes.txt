@@ -67,3 +67,13 @@ WTForms:
     -> how to validate:
         if form.valiadte_on_submit():
             return
+
+flash():
+    add jinja to frontend
+    {% with messages = get_flashed_messages() %}
+        {% if messages %}
+            {% for m in messages %}
+                html element
+            {% endfor %}
+        {% endif %}
+    {% endwith %} 
