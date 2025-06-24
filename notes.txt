@@ -61,6 +61,9 @@ WTForms:
 
     secret key:
     app.config["SECRET_KEY"] = "iuehf92hf00i"
+    secret key generation:
+        import secrets
+        print(secrets.token_hex(14))
 
     -> inside form:
         {{ form.hidden_tag() }}
