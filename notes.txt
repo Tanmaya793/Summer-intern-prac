@@ -80,3 +80,22 @@ flash():
             {% endfor %}
         {% endif %}
     {% endwith %} 
+
+SQLAlchemy:
+    flask_sqlalchemy
+    app.config["SQLALCHEMY_DATABASE_URI"] = "mysql+pymysql://root:password@localhost:port/databasename"
+    app.config["SQLALCHEMY_TRACK_MODIFICATIONS] = False ## to not execute while writing code
+
+    db = SQLAlchemy(app)
+
+    class classname(db.Model):
+        variable = db.column(db.datatype,...)
+
+    with app.app_context():
+        db.create_all()
+
+    -> the details goes to request, 
+        access using request.form["name value of html element"]
+    -> make object for our class
+    -> db.session.add(object)
+        db.session.commit()
