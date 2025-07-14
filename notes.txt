@@ -99,3 +99,13 @@ SQLAlchemy:
     -> make object for our class
     -> db.session.add(object)
         db.session.commit()
+
+------------------------------------------------------------------------------------------------------------------------------
+
+React Learnings:-
+
+
+npx create-react-app name
+npm run
+
+react-router-dom for routing
